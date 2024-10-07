@@ -19,4 +19,5 @@ Simple Variables Introduction
 */
 
 byte number = 10;
-System.Console.WriteLine(number);
+Console.WriteLine(number);
+  
