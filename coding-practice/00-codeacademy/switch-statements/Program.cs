@@ -18,7 +18,8 @@ if (ph < 7) {
 - phが 11 以上の場合は、 を出力します"Very Basic"。
 */
 
-switch (ph) {
+switch (ph)
+{
   case <= 3:
     Console.WriteLine("Very Acidic");
     break;

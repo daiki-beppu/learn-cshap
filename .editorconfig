@@ -11,7 +11,7 @@ tab_width = 2
 
 # 改行設定
 end_of_line = lf
-insert_final_newline = true
+insert_final_newline = false
 trim_trailing_whitespace = true
 
 # 文字セット
@@ -76,3 +76,22 @@ csharp_style_conditional_delegate_call = true:suggestion
 
 # コードブロックの設定
 csharp_prefer_braces = true:suggestion
+
+# using ディレクティブの整理
+dotnet_sort_system_directives_first = true
+dotnet_separate_import_directive_groups = false
+
+# 修飾子の設定（System. の自動除去に直接関係）
+dotnet_style_qualification_for_field = false:warning
+dotnet_style_qualification_for_property = false:warning
+dotnet_style_qualification_for_method = false:warning
+dotnet_style_qualification_for_event = false:warning
+
+# 名前空間の設定
+csharp_style_namespace_declarations = file_scoped:warning
+
+# コードスタイルの問題を警告として扱う
+dotnet_diagnostic.IDE0001.severity = warning
+dotnet_diagnostic.IDE0002.severity = warning
+dotnet_diagnostic.IDE0004.severity = warning
+dotnet_diagnostic.IDE0005.severity = warning

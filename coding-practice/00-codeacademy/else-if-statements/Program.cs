@@ -8,10 +8,15 @@ phが7より大きければ Basic と表示する。
 
 double ph = 3.0;
 
-if (ph < 7) {
+if (ph < 7)
+{
   System.Console.WriteLine("Acidic");
-} else if (ph > 7) {
+}
+else if (ph > 7)
+{
   System.Console.WriteLine("Basic");
-} else {
+}
+else
+{
   System.Console.WriteLine("Neutral");
 }

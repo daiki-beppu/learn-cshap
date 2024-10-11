@@ -12,7 +12,7 @@ summerStrut = new string[] { "Juice", "Missing U", "Raspberry Beret", "New York 
 int[] ratings = { 5, 4, 4, 3, 3, 5, 5, 4 };
 
 // コンソールに 「Song number X is rated three stars 」のようなメッセージを出力する。
-System.Console.WriteLine($"Song number {Array.IndexOf(ratings, 3) + 1} is rated three stars" );
+System.Console.WriteLine($"Song number {Array.IndexOf(ratings, 3) + 1} is rated three stars");
 
 // 配列メソッドを使用して summerStrut 内のタイトルの順序を逆にします。最初と最後のタイトルを出力
 Array.Reverse(summerStrut);
