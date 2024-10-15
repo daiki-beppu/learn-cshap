@@ -43,7 +43,6 @@ namespace Constructors
 
       Console.WriteLine(f.name);
       Console.WriteLine(f.biome);
-
     }
   }
 }
