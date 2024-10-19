@@ -1,1 +1,13 @@
-﻿System.Console.WriteLine();
+﻿/*
+配列の使用 確かに！ 以下は、C# Udemyコースの練習問題を再構成したもので、前回の例題と同じ形式になっています！
+注意！各デフォルト値の実行結果は、次のように新しい行に出力してください： 1 2 3 4 5
+
+整数の配列を宣言し、それを値で初期化し、foreach ループを使って各値を表示する C# プログラムを作成しなさい。
+*/
+
+int[] array = {1, 2, 3, 4, 5};
+
+foreach (int item in array)
+{
+  System.Console.WriteLine(item);
+}
