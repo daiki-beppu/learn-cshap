@@ -1,2 +1,20 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿/*
+このプログラムは、次の値で 3x3 の 2 次元配列を宣言して初期化します： 1 2 3 4 5 6 7 8 9 配列の各行の合計を計算します。
+各行の合計をコンソールに表示します。 注意！デフォルトの文字列の実行結果は次のはずです： 6 15 24
+
+警告！ 3x3の2次元配列を整数で初期化し、各行の合計を計算し、その合計をコンソールに表示する簡単なC#プログラムを作成しなさい。
+*/
+
+int[,] array2D = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+int add = 0;
+
+for (int i = 0; i < array2D.GetLength(0); i++)
+{
+  for (int j = 0; j < array2D.GetLength(1); j++)
+  {
+    add += array2D[i, j];
+  }
+  System.Console.WriteLine(add);
+
+  add = 0;
+}
