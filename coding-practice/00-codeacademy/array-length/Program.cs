@@ -15,10 +15,15 @@ string[] summerStrut = new string[] {
   "Los Angeles"
 };
 
-if (summerStrut.Length == 8 ) {
-  System.Console.WriteLine( "summerStrut Playlist is ready to go!");
-} else if (summerStrut.Length > 8) {
-  System.Console.WriteLine("Too many songs!");
-} else {
-  System.Console.WriteLine("Add some songs!");
+if (summerStrut.Length == 8)
+{
+  Console.WriteLine("summerStrut Playlist is ready to go!");
+}
+else if (summerStrut.Length > 8)
+{
+  Console.WriteLine("Too many songs!");
+}
+else
+{
+  Console.WriteLine("Add some songs!");
 }
