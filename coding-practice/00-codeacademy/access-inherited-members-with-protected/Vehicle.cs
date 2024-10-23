@@ -1,3 +1,10 @@
+/*
+Vehicleでは、以下の各プロパティにprotectedセッターを追加してください：
+- LicensePlate
+- Speed (private からprotectedに更新)
+- Wheels
+*/
+
 using System;
 
 namespace LearnInheritance
@@ -5,13 +12,13 @@ namespace LearnInheritance
   class Vehicle
   {
     public string LicensePlate
-    { get; }
+    { get; protected set; }
 
     public double Speed
-    { get; private set; }
+    { get; protected set; }
 
     public int Wheels
-    { get; }
+    { get; protected set; }
 
     public void SpeedUp()
     {
